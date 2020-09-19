@@ -22,7 +22,7 @@ const initialPieData = {
     series: []
 }
 
-const BASE_URL = 'https://sds1-vinicius.herokuapp.com';
+const BASE_URL = 'http://localhost:8081';
 
 const Charts = () => {
     const [barChartData , setbarChartData] = useState<BarChartData[]>([]);

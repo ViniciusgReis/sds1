@@ -7,7 +7,7 @@ import Pagination from './Pagination';
 import Filters from '../../components/Filters';
 
 
-const BASE_URL = 'https://sds1-vinicius.herokuapp.com';
+const BASE_URL = 'http://localhost:8081'
 
 const Records = () => {
     const [ recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
